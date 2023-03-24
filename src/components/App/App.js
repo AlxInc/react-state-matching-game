@@ -37,7 +37,7 @@ class App extends Component{
       </header>
         <OptionsPanel playing={this.state.playing} numTiles={this.state.numTiles} startGame={this.startGame}/>
         <Board numTiles={this.state.numTiles} tile={this.state.tiles}/>
-      }
+      
     </div>
   );
 
